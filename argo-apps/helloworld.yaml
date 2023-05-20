@@ -14,7 +14,7 @@ spec:
       valueFiles:
       - values.yaml
     path: go-hello-http
-    repoURL: https://github.com/ironcore864/gitops-argocd
+    repoURL: https://github.com/bmutziu/gitops-argocd
     targetRevision: HEAD
   syncPolicy:
     automated:
