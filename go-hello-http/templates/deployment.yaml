@@ -5,7 +5,7 @@ metadata:
   name: my-kubernetes-component
   labels:
     app: my-kubernetes-component
-    backstage.io/kubernetes-id: my-kubernetes-component
+    backstage.io/kubernetes-id: m-k8s-cmpnnt
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
@@ -15,7 +15,7 @@ spec:
     metadata:
       labels:
         app: my-kubernetes-component
-        backstage.io/kubernetes-id: my-kubernetes-component
+        backstage.io/kubernetes-id: m-k8s-cmpnnt
     spec:
       containers:
       - name: my-kubernetes-component
